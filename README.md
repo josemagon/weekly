@@ -3,6 +3,8 @@
 This app will only keep track of your tasks for the week, 7 days.
 Every week, your app will be refreshed with a new, empty week.</p>
 
+<a href="http://weekly-7.web.app">See it in action!</a>
+
 ## The classic To Do app
 ## Following a React crouse (<a href="https://www.udemy.com/course/modern-react-bootcamp/">by Clot Steele</a>)
 
