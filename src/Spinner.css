@@ -1,0 +1,40 @@
+.Spinner{
+    width: 100%;
+}
+
+@keyframes ziczac{
+    0%{
+        width: 0%;
+    }
+
+    15%{
+        width: 25%;
+    }
+
+    30%{
+        width: 50%;
+    }
+
+    70%{
+        width: 70%;
+    }
+
+    80%{
+        width: 80%;
+    }
+
+    100%{
+        width: 100%;
+    }
+
+
+}
+
+.Spinner-fill{
+    border-bottom: 5px solid rgb(94, 0, 86);
+    width: 0px;
+    animation-name: ziczac;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+

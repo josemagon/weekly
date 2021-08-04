@@ -1,0 +1,159 @@
+*{
+  font-family: 'Staatliches', cursive;
+}
+
+body{
+  font-size: 1rem;
+}
+
+header{
+  margin-top: 20px;
+}
+
+input{
+  padding: 10px;
+  border: 0;
+  text-align: center;
+}
+
+input:focus{
+  outline-width: 0;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+button{
+  background: rgba(255, 255, 255, 0.0);
+  padding: 10px;
+  font-size: small;
+}
+
+  .enabled{
+    color: green;
+  }
+  .disabled{
+    color: rgb(180, 3, 3);
+  }
+
+.weeklygif{
+  max-width: 100%;
+  height: 200px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-profilepic{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+
+.App-content{
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+}
+
+.Week{
+  width: 100%;
+}
+
+.Day{
+  float: left;
+  margin-left: 1.6%;
+  margin-right: 1.6%;
+  margin-bottom: 10px;
+  width: 30%;
+  background-color: rgb(235, 235, 235);
+  height: 200px;
+}
+
+  .Day-header{
+    height: 40px;
+    padding-bottom: 30px;
+    background-color: rgb(241, 241, 241);
+  }
+
+  .Day-header h4{
+    float:left;
+    width: 80%;
+  }
+
+  .Day-header button{
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    float:left;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+.allclear{
+  clear:both;
+}
+
+.Day-ToDoList{
+  margin-top: 15px;
+}
+
+.NewToDoForm{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78,78,78,0.5);
+  position: fixed;
+  top:0;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+  .NewToDoForm-form{
+    background-color: white;
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+.ToDoList ul{
+  padding: 0;
+  width: 100%;
+}
+
+.ToDoList-ToDoItem{
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+  .ToDoList-ToDoItem:hover{
+    background-color: rgb(196, 196, 196);
+  }
+
+.opened{
+  height: auto;
+  border: 4px solid rgba(10, 57, 117, 0.486);
+}
+
+  @media (max-width: 850px){ /* version mobil */
+    .Day{
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  }
+
+  ul{
+    width: 80%;
+    text-align: left;
+  }
